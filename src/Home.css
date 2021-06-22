@@ -1,0 +1,26 @@
+* {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(88,88,88);
+}
+
+body {
+    background-color: rgb(240,240,240);
+}
+
+.result-box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gif-box {
+    background-color: rgb(220,220,220);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+img {
+    margin-top: 15px;
+    border-radius: 15px;
+}
