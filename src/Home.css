@@ -8,6 +8,10 @@ body {
     background-color: rgb(240,240,240);
 }
 
+button {
+    margin-top: 10px;
+}
+
 .result-box {
     margin-top: 50px;
     display: grid;

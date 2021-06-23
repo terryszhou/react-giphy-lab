@@ -12,10 +12,10 @@ export default class Home extends Component {    constructor(props) {
     render() {
         return (
             <main>
-                <section className="jumbotron text-center">
-                    <div className="container">
-                        <h1 className="jumbotron-heading">Giphy Search</h1>
-                        <p className="lead text-muted">The true source of all things giphy...</p>
+                <section>
+                    <div>
+                        <h1 class="m-3">Giphy Search</h1>
+                        <p>The true source of all things giphy...</p>
                     </div>
                 </section>
                 <SearchContainer gifData={this.state.gifData} />
